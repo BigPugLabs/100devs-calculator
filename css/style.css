@@ -3,14 +3,67 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+  font-size: 16px;
+  font-family: 'Ubuntu Mono', monospace;
+}
 
+body {
+  background-color: #DDD;
+}
+
+#calculator {
+  background-color: darkgray;
+  width: 300px;
+  border: 2px solid #666;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+
+h4 {
+  margin: 0.5rem 1rem;
+}
+
+#calculator h2 {
+  background-color: aquamarine;
+  text-align: right;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem 1rem;
+  border: 2px solid #666;
+  border-radius: 3px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+ul {
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 300px;
+}
+
+ul li {
+  display: inline-block;
+  background-color: beige;
+  border: 2px solid #666;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 56px;
+}
 
 
 /******************************************
